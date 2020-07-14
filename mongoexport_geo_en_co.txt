@@ -1,0 +1,1 @@
+mongoexport --db local --collection en_geo_co --type=csv --fields postedTime,body,actor.friendsCount,actor.followersCount,actor.listedCount,actor.statusesCount,actor.favoritesCount,actor.location.displayName,verb,retweetCount,generator.displayName,link, --out en_geo_co.csv
